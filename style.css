@@ -44,6 +44,9 @@ a{
 @media (min-width: 481px) and (max-width: 767px) {
   
   /* CSS */
+  .carousel-item .text{
+      text-align: center;
+  }
   .footer-left{
       text-align: center;
   }
