@@ -33,10 +33,19 @@ a{
 }
 .card{
     box-shadow: 3px 3px 4px grey;
+    text-align: center;
 }
 .footer-img{
     align-items: center;
 }
 .footer-left{
     align-items: center;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .footer-left{
+      text-align: center;
+  }
+  
 }
